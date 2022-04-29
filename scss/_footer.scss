@@ -31,3 +31,27 @@
 .svg-footer {
   transform: translate(33%, 33%);
 }
+@media screen and (max-width: 800px) {
+  .footer-conteiner {
+    height: 44vh;
+  }
+  .link {
+    margin-bottom: 10rem;
+  }
+}
+@media screen and (min-height: 600px) and (max-height: 680px) {
+  .link {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-height: 680px) and (max-height: 855px) {
+  .link {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  .link {
+    margin-bottom: 13rem;
+  }
+}

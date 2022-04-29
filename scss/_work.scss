@@ -5,8 +5,7 @@
   text-align: center;
   margin-top: 3rem;
 }
-.cards {
-}
+
 .card-title {
   margin-top: 2.3rem;
   font-size: 2rem;
@@ -27,6 +26,7 @@
   background-color: $green;
   border: none;
   border-radius: 1rem;
+  transition: all ease-in-out 0.1s;
 }
 
 .project-btn2 {
@@ -51,6 +51,10 @@
   background-color: $dark-blue;
   border: none;
   border-radius: 1rem;
+}
+.project-btn:hover {
+  padding: 0.7rem 2.2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .joey {
