@@ -10,14 +10,13 @@ $yellow: #ffde31;
 * {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
 }
 ul {
   list-style: none;
 }
 
 html {
-  min-width: 100%;
-  height: 100%;
   box-sizing: border-box;
   font-size: 62.5%;
   overflow-x: hidden;
@@ -33,4 +32,10 @@ button {
 }
 li {
   cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
 }

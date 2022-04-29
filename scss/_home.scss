@@ -1,19 +1,21 @@
 .section-home {
-  // position: absolute;
   width: 100vw;
-  height: 120vh;
+  height: 100vh;
 }
 .trees-svg {
-  position: absolute;
-  width: 130vw;
-  height: 130vh;
-
-  transform: translate(-10%, 25%);
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130%;
+  transform: translateX(-10%);
+  z-index: -10;
 }
 
 //the text in home
 .main-text-plus-btn {
-  transform: translateY(70%);
+  // position: absolute;
+  // transform: translateY(70%);
   text-align: center;
 }
 .yoav-dot {
@@ -26,4 +28,14 @@
 .sub-title {
   font-size: 1.5rem;
   transform: translateY(-80%);
+}
+@media screen and (max-width: 800px) {
+  .trees-svg {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140%;
+    transform: translate(-16%, 80%);
+  }
 }
