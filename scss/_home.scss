@@ -1,0 +1,29 @@
+.section-home {
+  // position: absolute;
+  width: 100vw;
+  height: 120vh;
+}
+.trees-svg {
+  position: absolute;
+  width: 130vw;
+  height: 130vh;
+
+  transform: translate(-10%, 25%);
+}
+
+//the text in home
+.main-text-plus-btn {
+  transform: translateY(70%);
+  text-align: center;
+}
+.yoav-dot {
+  font-size: 7rem;
+  color: $pink;
+}
+.main-title {
+  font-size: 3.7rem;
+}
+.sub-title {
+  font-size: 1.5rem;
+  transform: translateY(-80%);
+}

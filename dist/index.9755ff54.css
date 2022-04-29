@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  min-width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+button, li {
+  cursor: pointer;
+}
+
+.nav {
+  width: 95%;
+  padding: .6rem 0;
+  position: absolute;
+}
+
+.nav-list {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.nav-link {
+  color: #000;
+  text-align: center;
+  margin-left: 4rem;
+  font-size: 1.2rem;
+  display: block;
+}
+
+.nav-link:hover {
+  color: #4e4c4c;
+}
+
+.lets-talk-btn {
+  background-color: #ffde31;
+  border: none;
+  border-radius: .4rem;
+  padding: .6px 1.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.7rem;
+}
+
+.card {
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  border-radius: 3rem;
+  grid-template-columns: 300px 300px;
+  margin: 10rem auto auto;
+  display: grid;
+  box-shadow: 0 4px 8px #0003, 0 6px 20px #00000030;
+}
+
+.section-home {
+  width: 100vw;
+  height: 120vh;
+}
+
+.trees-svg {
+  width: 130vw;
+  height: 130vh;
+  position: absolute;
+  transform: translate(-10%, 25%);
+}
+
+.main-text-plus-btn {
+  text-align: center;
+  transform: translateY(70%);
+}
+
+.yoav-dot {
+  color: #fad4d8;
+  font-size: 7rem;
+}
+
+.main-title {
+  font-size: 3.7rem;
+}
+
+.sub-title {
+  font-size: 1.5rem;
+  transform: translateY(-80%);
+}
+
+.work {
+  z-index: 100;
+  width: 100vw;
+  height: 150vh;
+  position: relative;
+}
+
+.latest-work {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.card-title {
+  margin: 2.3rem;
+  font-size: 2rem;
+}
+
+.card-desc {
+  text-align: left;
+  padding: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.project-btn {
+  background-color: #b4ceb3;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 4rem;
+  padding: .4rem 1.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+}
+
+.project-btn2 {
+  background-color: #fad4d8;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 4rem;
+  padding: .4rem 1.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+}
+
+.project-btn3 {
+  color: #fff;
+  background-color: #546a76;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 4rem;
+  padding: .4rem 1.9rem;
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+}
+
+.joey {
+  contain: content;
+  height: 300px;
+  width: 300px;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.card1-background {
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
+
+.footer {
+  width: 100vw;
+  height: 50vh;
+  margin-top: 10rem;
+}
+
+.splash {
+  width: 100vw;
+  z-index: -100;
+  position: relative;
+  transform: translateY(30%);
+}
+
+.footer-links {
+  justify-content: center;
+  display: flex;
+}
+
+.link {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=index.9755ff54.css.map */

@@ -1,0 +1,48 @@
+.nav {
+  padding: 0.6rem 0rem;
+  position: absolute;
+  width: 95%;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link {
+  font-size: 1.2rem;
+  display: block;
+  color: black;
+  text-align: center;
+  margin-left: 4rem;
+}
+.nav-link:hover {
+  color: rgb(78, 76, 76);
+}
+
+//yellow button
+
+.lets-talk-btn {
+  font-family: 'Poppins', sans-serif;
+
+  font-size: 1.7rem;
+
+  padding: 0.6 1.9rem;
+  background-color: $yellow;
+  border: none;
+  border-radius: 0.4rem;
+}
+
+// cards
+
+.card {
+  margin: auto;
+  margin-top: 10rem;
+  width: 600px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3rem;
+  text-align: center;
+}
+
+/// inside of cards
