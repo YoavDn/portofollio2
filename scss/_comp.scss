@@ -1,7 +1,9 @@
 .nav {
+  position: absolute;
   padding: 0.6rem 0rem;
   // position: absolute;
   width: 95%;
+  z-index: 3;
 }
 .nav-list {
   display: flex;
@@ -10,20 +12,12 @@
 .nav-link {
   font-size: 1.2rem;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   margin-left: 4rem;
 }
 .nav-link:hover {
   color: rgb(78, 76, 76);
-}
-
-.section--hidden {
-  opacity: 0;
-  transform: translateY(8rem);
-}
-.section {
-  transition: transform 1s, opacity 1s;
 }
 
 .hidden {
@@ -57,18 +51,6 @@
 }
 
 //yellow button
-
-.lets-talk-btn {
-  font-family: 'Poppins', sans-serif;
-
-  font-size: 1.7rem;
-
-  padding: 0.6 1.9rem;
-  background-color: $green;
-  border: none;
-  border-radius: 0.4rem;
-  transition: all ease-in-out 0.2s;
-}
 
 // cards
 
